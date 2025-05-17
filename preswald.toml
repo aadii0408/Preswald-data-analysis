@@ -1,0 +1,20 @@
+[project]
+title = "My Data Analysis App "  # Updated title
+version = "0.1.0"
+port = 8501
+slug = "preswald-project"  
+entrypoint = "hello.py"    
+
+[branding]
+name = "My Data Analysis App 🚀"  # Updated title shown in UI
+logo = "images/logo.png"
+favicon = "images/new_favicon.ico"  # Updated favicon path
+primaryColor = "#F89613"
+
+[data.my_dataset]
+type = "csv"
+path = "data/my_dataset.csv"  
+
+[logging]
+level = "INFO"  
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
